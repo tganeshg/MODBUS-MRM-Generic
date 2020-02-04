@@ -1,0 +1,36 @@
+SlaveAddress,FunctionCode,StartingAddress,NoOfReginters,ByteOrder,WordOrder,RegisterSize,DataTypeOfValue
+
+/*--------------------------------------------------------*/
+'SlaveAddress' - Numeric Value
+
+'functionCode' - should be any one of following:
+	1 - READ_DISCRETE_COIL
+	2 - READ_DISCRETE_INPUT
+	3 - READ_HOLDING_REG
+	4 - READ_INPUT_REG
+	
+'startingAddress' - Numeric Value
+
+'NoOfReginters' - Numeric Value
+
+'ByteOrder' - should be any one of following:
+	0 - LOW_HIGH_BYTE
+	1 - HIGH_LOW_BYTE
+	
+'WordOrder' - should be any one of following:
+	0 - LOW_HIGH_WORD
+	1 - HIGH_LOW_WORD
+
+'RegisterSize' - should be any one of following:
+	0 - BIT_16
+	1 - BIT_32
+	
+'DataTypeOfValue' - should be any one of following:
+	0 - BOOLEAN_BIT
+	1 - IEEEFLOAT_32BIT
+	2 - UINT_32BIT
+	3 - INT_32BIT
+	4 - UINT_16BIT
+	5 - INT_16BIT
+/*--------------------------------------------------------*/
+	

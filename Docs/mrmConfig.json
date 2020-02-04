@@ -1,0 +1,56 @@
+{
+	"SelectedProtoCol":"MODBUS",
+	"GenConfig":
+	{
+		"LANConfig":
+		{
+			"LanIP":"192.168.10.5",
+			"SubnetMask":"255.255.255.0",
+			"Gateway":"192.168.10.6"
+		},
+		"DebugConfig":
+		{
+			"Enable":"No",
+			"DebugLogIP":"192.168.10.6",
+			"DebugPort":"1020"
+		},
+		"NTPConfig":
+		{
+			"Enable":"No",
+			"ServerAddr":"192.168.12.6",
+			"Port":"100",
+			"Interval":"30"
+		}
+	},
+	"FtpcConfig":
+	{
+		"Host": "192.168.10.172",
+		"UserName":"Ganesh",
+		"PassWord":"excel",
+		"FileTransType":"Periodic",
+		"PeriodicInt":"1"
+	},
+	"MeterComConfig":
+	{
+		"EnableLogData":"Yes",
+		"SerialConfig":
+		{
+			"Baudrate":"9600",
+			"Databits":"8",
+			"Stopbits":"1",
+			"Parity":"Even",
+			"Handshake":"None"
+		},
+		"PollingType":
+		{
+			"PollType":"Periodic",
+			"PeriodicInt":"5"
+		}
+	},
+	"MeterPollInform":
+	[
+		{"MtrAddr":"1", "FunCode":"3", "StartAddr":"3901", "NoOfReg":"2", "ByteOrder":"HighLowByte", "WordOrder":"HighLowWord", "RegisterSize":"Bit16", "DataTypeOfValue":"Float32Bit", "ParamName":"Voltage_RY"},
+		{"MtrAddr":"1", "FunCode":"3", "StartAddr":"3903", "NoOfReg":"2", "ByteOrder":"HighLowByte", "WordOrder":"HighLowWord", "RegisterSize":"Bit16", "DataTypeOfValue":"Float32Bit", "ParamName":"Voltage_YB"},
+		{"MtrAddr":"1", "FunCode":"3", "StartAddr":"3905", "NoOfReg":"2", "ByteOrder":"HighLowByte", "WordOrder":"HighLowWord", "RegisterSize":"Bit16", "DataTypeOfValue":"Float32Bit", "ParamName":"Voltage_RB"}
+	]
+}

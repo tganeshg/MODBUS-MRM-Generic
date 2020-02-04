@@ -1,0 +1,14 @@
+{
+	"Meter_1":
+	{
+		"Voltage_1 in Volt":"230.43",
+		"Voltage_2 in Volt":"224.21",
+		"Voltage_3 in Volt":"233.24",
+		"Current_1 in Amps":"15.32",
+		"Current_2 in Amps":"15.22",
+		"Current_3 in Amps":"15.12",
+		"Power_Export in Kw":"32132.43",
+		"Power_Import in Kwh":"3232.43",
+		"Frequncy in Hz":"50.43"
+	}
+}
